@@ -22,5 +22,20 @@ I don't see myself using Duotones on Wordpress, but I feel like it's worth menti
                 ]
         }
 ```
-![](../../../../Pictures/wp-duotones.png)
+ ![vague description](/wp-content/themes/udemy/assets/images/wp-duotones.png)
+
+ The gradients feature is pretty cool, and it utilizes css to detail the colors the user wishes to use. As expected, it is within the colro settings:
+ ```
+    "defaultGradients": false,
+                "gradients": [
+                    {"slug": "u-summer-dog", "name": "Udemy Summer Dog", "gradient": "linear-gradient(#a8ff78, #78ffd6)"}
+                ]
+ ``` 
+ This will cause the screen to look as so: 
+![](/wp-content/themes/udemy/assets/images/wp-global-gradients.png)
+
 Anywhats, I'm learning more about the theme.json file and just how deep the cutomizations can go on this.
+
+#### 11/03/2023
+Learned more on how to adjust global styles using theme.json
+Not too much to say other than that. 
