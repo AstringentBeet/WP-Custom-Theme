@@ -39,3 +39,11 @@ Anywhats, I'm learning more about the theme.json file and just how deep the cuto
 #### 11/03/2023
 Learned more on how to adjust global styles using theme.json
 Not too much to say other than that. 
+
+On another note, I'm now starting to learn about the world of hooks! Basically, hooks are functions that run during events.
+It's basically Wordpress' answer to PHP's lack of a proper event-handling mechanism akin to Javascript's. It is by far the most
+used API in the WP community. They're used to load both Javascript and css file. Where are hooks stored? The `functions.php` file, of course!
+`functions.php` file is responsible for the logic of the theme, while `index.php` is responsible for displaying the content (that is if the `index.html` file isn't already in use).
+
+#### 11/04/2023
+Learned some other functions, such as `add_actions()`, which passes a wordpress hook and the respective function it should call. Two types of files are compatible with `enqueue.php`: CSS and Javascript files. For future reference, it's generally advised to leave php mode when rendering html tags.
